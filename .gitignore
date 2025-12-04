@@ -1,0 +1,41 @@
+# ------------------------------------
+# 1. DEPENDENCIES AND BUILD ARTIFACTS
+# ------------------------------------
+
+# Node.js module installation folder
+/node_modules
+
+# Logs and error files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Production build artifacts (if you use a build step)
+/dist
+/build
+
+# ------------------------------------
+# 2. LOCAL ENVIRONMENT & SECRETS
+# ------------------------------------
+
+# Environment variables file:
+# This file often contains API keys, database connection strings,
+# and other secrets that should NEVER be committed.
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# ------------------------------------
+# 3. EDITOR / IDE Files
+# ------------------------------------
+
+# VS Code specific files
+.vscode/
+
+# IntelliJ / WebStorm specific files
+.idea/
+
+# Other common editor files
+*.sublime-workspace
